@@ -25,12 +25,12 @@ export default function UserIn({ imageSrc, imageDesc, title, type }:propsType) {
           <form className="w-full flex flex-col items-center space-y-10" action="">
             <div className="flex flex-col space-y-4">
               <label htmlFor="email">Email</label>
-              <input className="px-4 py-2 rounded-md hover:bg-red-50 focus:outline-red-50 focus:outline-[0.5px]" type="email" id="email" name="email" />
+              <input className="bg-black/5 px-4 py-2 rounded-md hover:bg-red-50 focus:outline-red-50 focus:outline-[0.5px]" type="email" id="email" name="email" />
             </div>
 
             <div className="flex flex-col space-y-4">
               <label htmlFor="password">Password</label>
-              <input className="px-4 py-2 rounded-md hover:bg-red-50 focus:outline-red-50 focus:outline-[0.5px]" type="password" id="password" name="password" />
+              <input className="bg-black/5 px-4 py-2 rounded-md hover:bg-red-50 focus:outline-red-50 focus:outline-[0.5px]" type="password" id="password" name="password" />
             </div>
             <button className="button-style" type="submit">{type}</button>
           </form>

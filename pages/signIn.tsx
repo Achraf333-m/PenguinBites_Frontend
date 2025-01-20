@@ -1,5 +1,6 @@
 import UserIn from "@/components/userIn";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function SignIn() {
   return (
@@ -13,6 +14,7 @@ export default function SignIn() {
         title="Welcome Back"
         type="Sign in"
       />
+      <Link href={'/ingredients'}>Go to ingredients</Link>
     </>
   );
 }

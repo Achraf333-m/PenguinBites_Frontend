@@ -1,7 +1,4 @@
-import Image from "next/image";
-import { Poppins } from "next/font/google";
 import Head from "next/head";
-import { useRouter } from "next/router";
 import NavBar from "@/components/navbar";
 import Link from "next/link";
 
@@ -15,9 +12,9 @@ export default function Home() {
         <title>PenguinBites</title>
       </Head>
 
-      <main className="h-screen">
+      <div className="h-screen">
         <NavBar />
-        <div className="px-6 py-8 my-4 md:flex-row flex flex-col items-center justify-around">
+        <main className="px-6 py-8 my-4 md:flex-row flex flex-col items-center justify-around">
           <div className="flex flex-col justify-center items-center space-y-6">
             <h4>Hey buddy</h4>
             <p className="w-[350px]">
@@ -44,8 +41,8 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     </>
   );
 }
