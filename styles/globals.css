@@ -17,12 +17,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-color: #d8bfd87f;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 
 @layer components {
   .button-style  {
-    @apply flex items-center justify-center border-[1px] border-red-50 w-full rounded-md py-1 hover:bg-red-100 hover:text-gray-50 px-2
+    @apply flex items-center justify-center border-[1px] border-red-50 w-full rounded-md py-1 text-[#333] hover:bg-[#FDC5C5] px-2
   }
 }
