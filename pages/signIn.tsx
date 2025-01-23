@@ -14,7 +14,7 @@ export default function SignIn() {
         title="Welcome Back"
         type="Sign in"
       />
-      <Link href={'/ingredients'}>Go to ingredients</Link>
+      <Link href={'/home/ingredients'}>Go to ingredients</Link>
     </>
   );
 }
